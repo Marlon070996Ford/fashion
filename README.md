@@ -1,2 +1,2 @@
-# Fashion
-My Fashion Recreation Site
+# Furniture
+My Furniture Recreation Site
