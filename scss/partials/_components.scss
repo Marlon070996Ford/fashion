@@ -1,1 +1,19 @@
-/* Web Fonts -------------------- */
+@import url('https://fonts.googleapis.com/css?family=Dosis|Source+Sans+Pro');
+// font-family: 'Dosis', sans-serif;
+// font-family: 'Source Sans Pro', sans-serif;
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #a88d7b;
+    border: none;
+}
+
+.fas {
+    color: #999999;
+}
+
+.fab {
+    color: #999999;
+}

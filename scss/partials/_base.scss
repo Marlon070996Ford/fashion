@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+nav {
+    
+    ul {
+        margin-top: 0;
+    } 
+    li {
+        display: inline;
+        padding: 10px;
+        
+    }
+
+    a {
+        text-decoration: none;  
+    }
+}
+
+span {
+    width: 13px;
+    height: 9px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #999999;
+}
