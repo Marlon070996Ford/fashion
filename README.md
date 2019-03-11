@@ -1,2 +1,2 @@
 # Furniture
-My Furniture Recreation Site
+My Brand New Furniture Site
