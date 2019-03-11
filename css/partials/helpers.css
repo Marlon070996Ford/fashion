@@ -65,4 +65,20 @@
 .currency {
   text-align: center; }
 
+#look {
+  background-color: #666666;
+  height: 50vh; }
+
+#product {
+  height: 65vh;
+  background-color: grey; }
+
+#collect {
+  height: 65vh;
+  background-color: grey; }
+
+#blogg {
+  height: 60vh;
+  background-color: grey; }
+
 /*# sourceMappingURL=helpers.css.map */

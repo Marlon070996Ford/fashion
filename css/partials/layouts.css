@@ -4,6 +4,63 @@
 
 .feature {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); }
+  margin-bottom: 10%;
+  grid-gap: 1%;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 250px);
+  grid-template-areas: "blank1 one two three blank2"; }
+
+.product1 {
+  grid-area: one;
+  background-color: #000;
+  text-align: center; }
+
+.product2 {
+  grid-area: two;
+  background-color: #000000;
+  text-align: center; }
+
+.product3 {
+  grid-area: three;
+  background-color: #000000;
+  text-align: center; }
+
+.collections {
+  display: grid;
+  margin-bottom: 10%;
+  grid-gap: 1%;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: repeat(1, 300px);
+  grid-template-areas: "blank1 newone newtwo blank2"; }
+
+.new-collection1 {
+  grid-area: newone;
+  background-color: #000; }
+
+.new-collection2 {
+  grid-area: newtwo;
+  background-color: #000; }
+
+.lookbook-head {
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr;
+  grid-template-areas: "blank words blank1"; }
+
+.wording {
+  grid-area: words;
+  text-align: center;
+  align-content: center; }
+
+.ourblog {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-areas: "blank pic word blank1"; }
+
+.imagehold {
+  grid-area: pic;
+  background-color: #666666; }
+
+.blogword {
+  grid-area: word; }
 
 /*# sourceMappingURL=layouts.css.map */

@@ -2,13 +2,21 @@
 // font-family: 'Dosis', sans-serif;
 // font-family: 'Source Sans Pro', sans-serif;
 
-button {
+.topbutton {
     width: 150px;
     height: 40px;
     border-radius: 20px;
     background-color: #a88d7b;
     border: none;
+    width: 87px;
     margin: 5%;
+    font-family: SourceSansPro;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 1.5px;
+    color: #ffffff;
 }
 
 .fas {
