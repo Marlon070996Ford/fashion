@@ -50,6 +50,7 @@
         padding-top: 1%;
     }
 
+    // ====== My top footer etc ======
     #logo {
         width: 117px;
         height: 21px;
@@ -92,4 +93,45 @@
     #blogg {
         height: 60vh;
         background-color: grey;  
+    }
+
+    // ======= My new nav and header ======
+
+    .topnav {
+        width: 100%;
+        height: 53px;
+        background-color: #eeeeee;
+    }
+
+    .navi {
+        font-family: Dosis;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.8px;
+        color: #ffffff;
+        text-transform: uppercase;
+        padding-top: 1%;
+    }
+
+    .about-us {
+        height: 60vh;
+        background-color: #000; 
+    }
+
+    .heading-about {
+        padding-top: 10%;
+    }
+
+
+    // main content of my about page 
+
+    #about-who {
+        height: 50vh;
+    }
+
+    .we-are-pic {
+        
     }

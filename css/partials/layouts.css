@@ -53,6 +53,7 @@
 
 .ourblog {
   display: grid;
+  grid-gap: 2%;
   grid-template-columns: 1fr 2fr 2fr 1fr;
   grid-template-areas: "blank pic word blank1"; }
 
@@ -62,5 +63,29 @@
 
 .blogword {
   grid-area: word; }
+
+.secondnav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "left right"; }
+
+.nateb {
+  grid-area: left;
+  text-align: center; }
+
+.imgnate {
+  height: 7vh; }
+
+.navi {
+  grid-area: right; }
+
+.topnav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+
+.who-we-are {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-areas: "blank who image blank1 "; }
 
 /*# sourceMappingURL=layouts.css.map */

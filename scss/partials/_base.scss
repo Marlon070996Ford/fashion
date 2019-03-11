@@ -15,6 +15,7 @@ nav {
 
     a {
         text-decoration: none;  
+        color: darkgrey;
     }
 }
 
@@ -31,6 +32,8 @@ span {
     color: #999999;
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
     text-align: center;
+    margin-top: 0;
+    color: azure;
 }
