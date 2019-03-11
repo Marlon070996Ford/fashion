@@ -2,4 +2,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
 
+.feature {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+
 /*# sourceMappingURL=layouts.css.map */

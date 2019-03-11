@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,IAAK;EACD,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc",
+"mappings": "AAAA,IAAK;EACD,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;;AAGzC,QAAS;EACL,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc",
 "sources": ["../../scss/partials/layouts.scss"],
 "names": [],
 "file": "layouts.css"
