@@ -5,7 +5,8 @@
   height: 40px;
   border-radius: 20px;
   background-color: #a88d7b;
-  border: none; }
+  border: none;
+  margin-top: 10%; }
 
 .fas {
   color: #999999; }
@@ -27,13 +28,25 @@
   color: #ffffff; }
 
 .down-arrow {
-  margin-top: 35%;
+  margin-top: 20%;
   font-size: 30px; }
 
 .view-more {
   width: 150px;
   height: 40px;
-  background-color: #a88d7b; }
+  background-color: #a88d7b;
+  border: none; }
+
+.read-more {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3.2;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #a88d7b; }
 
 .top {
   width: 100%;
@@ -41,7 +54,7 @@
   background-color: #2d2827; }
 
 .nateb-pic1 {
-  font-family: Dosis;
+  font-family: 'Dosis', sans-serif;
   font-size: 30px;
   font-weight: 600;
   font-style: normal;
@@ -59,7 +72,7 @@
   text-align: center; }
 
 .heading {
-  font-family: Dosis;
+  font-family: 'Dosis', sans-serif;
   font-size: 3.125rem;
   font-weight: normal;
   font-style: normal;
@@ -68,10 +81,10 @@
   letter-spacing: normal;
   text-align: center;
   color: #000;
-  padding: 10% 0 0 0; }
+  padding: 15% 0 0 0; }
 
 .heading-para {
-  font-family: SourceSansPro;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 15px;
   font-weight: normal;
   font-style: normal;
@@ -82,7 +95,7 @@
   padding: 0 14%; }
 
 .nav {
-  font-family: Dosis;
+  font-family: 'Dosis', sans-serif;
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
@@ -91,12 +104,12 @@
   letter-spacing: 0.8px;
   color: #ffffff;
   text-transform: uppercase;
-  padding-top: 1%; }
+  padding-top: 4%; }
 
 #logo {
   width: 117px;
   height: 21px;
-  font-family: Dosis;
+  font-family: 'Dosis', sans-serif;
   font-size: 30px;
   font-weight: 600;
   font-style: normal;
@@ -118,7 +131,8 @@
   height: 552px; }
 
 #product {
-  height: 705px; }
+  height: 705px;
+  padding-top: 10%; }
 
 .product1 {
   background-color: #000;
@@ -140,19 +154,36 @@
 
 #collect {
   height: 705px;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  padding-top: 10%; }
 
 #blogg {
   height: 671px;
-  background-color: #f9f9f9; }
+  background-color: #f9f9f9;
+  padding-top: 8%; }
 
-.topnav {
+.ourblog-img {
+  width: 585px;
+  height: 405px;
+  background-color: #666666; }
+
+.blogword {
+  width: 585px;
+  height: 405px; }
+
+.insta {
+  width: 80px;
+  height: 80px;
+  background-color: #ffffff;
+  margin: 2%; }
+
+.topfooter {
   width: 100%;
   height: 53px;
   background-color: #eeeeee; }
 
 .navbar2 {
-  font-family: Dosis;
+  font-family: 'Dosis', sans-serif;
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
@@ -163,13 +194,26 @@
   text-transform: uppercase;
   padding-top: 1%; }
 
+.imgnate {
+  width: 116px;
+  height: 22px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  color: #000000; }
+
 .about-us {
   height: 445px;
   background-color: #000;
-  align-content: center; }
+  align-content: center;
+  padding-top: 20%; }
 
 .heading-about {
-  font-family: SourceSansPro;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 50px;
   font-weight: normal;
   font-style: normal;
@@ -179,7 +223,7 @@
   color: #ffffff; }
 
 .home-about-us {
-  font-family: SourceSansPro;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 15px;
   font-weight: 600;
   font-style: normal;
@@ -190,7 +234,8 @@
   color: #cccccc; }
 
 #about-who {
-  height: 548px; }
+  height: 548px;
+  padding-top: 5%; }
 
 .we-are {
   width: 533px; }
@@ -202,7 +247,7 @@
 
 #meet-our-team {
   height: 721px;
-  width: 100%; }
+  padding-top: 10%; }
 
 .marlon {
   height: 305px;
@@ -243,7 +288,7 @@ nav a {
 span {
   width: 13px;
   height: 9px;
-  font-family: SourceSansPro;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 12px;
   font-weight: 300;
   font-style: normal;
@@ -252,10 +297,10 @@ span {
   letter-spacing: normal;
   color: #999999; }
 
-h1, h2, h3, h4, h5 {
+h1 {
   text-align: center;
   margin-top: 0;
-  font-family: SourceSansPro;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 36px;
   font-weight: normal;
   font-style: normal;
@@ -264,7 +309,20 @@ h1, h2, h3, h4, h5 {
   letter-spacing: normal;
   color: #333333; }
 
+img {
+  height: 100%;
+  width: 100%; }
+
+footer {
+  width: 100%;
+  height: 405px;
+  background-color: #666666; }
+
 .top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+
+.nav-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
 
@@ -313,16 +371,27 @@ h1, h2, h3, h4, h5 {
   grid-template-columns: 1fr 2fr 2fr 1fr;
   grid-template-areas: "blank pic word blank1"; }
 
-.imagehold {
-  grid-area: pic;
-  background-color: #666666; }
+.ourblog-img {
+  grid-area: pic; }
 
 .blogword {
   grid-area: word; }
 
+.footer-grid {
+  padding-top: 10%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr; }
+
+.small-footer-grid {
+  display: grid;
+  margin-right: 40%;
+  grid-gap: 1%;
+  grid-template-columns: repeat(4, auto); }
+
 .secondnav {
   display: grid;
   height: 93px;
+  align-content: center;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "left right"; }
 
@@ -330,13 +399,10 @@ h1, h2, h3, h4, h5 {
   grid-area: left;
   text-align: center; }
 
-.imgnate {
-  height: 7vh; }
-
-.navi {
+.navbar2 {
   grid-area: right; }
 
-.topnav {
+.topfooter {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
 
