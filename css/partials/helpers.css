@@ -3,11 +3,22 @@
   height: 53px;
   background-color: #2d2827; }
 
+.nateb-pic1 {
+  font-family: Dosis;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #fffefe; }
+
 .head-image {
   width: 100%;
-  height: 100vh;
+  height: 956px;
   background-image: url(../../images/bg.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
   text-align: center; }
 
 .heading {
@@ -67,26 +78,43 @@
 
 #look {
   background-color: #666666;
-  height: 50vh; }
+  height: 552px; }
 
 #product {
-  height: 65vh;
-  background-color: grey; }
+  height: 705px; }
+
+.product1 {
+  background-color: #000;
+  text-align: center;
+  height: 360px;
+  width: 370px; }
+
+.product2 {
+  background-color: #000000;
+  text-align: center;
+  height: 360px;
+  width: 370px; }
+
+.product3 {
+  background-color: #000000;
+  text-align: center;
+  height: 360px;
+  width: 370px; }
 
 #collect {
-  height: 65vh;
-  background-color: grey; }
+  height: 705px;
+  background-color: #ffffff; }
 
 #blogg {
-  height: 60vh;
-  background-color: grey; }
+  height: 671px;
+  background-color: #f9f9f9; }
 
 .topnav {
   width: 100%;
   height: 53px;
   background-color: #eeeeee; }
 
-.navi {
+.navbar2 {
   font-family: Dosis;
   font-size: 20px;
   font-weight: normal;
@@ -99,17 +127,68 @@
   padding-top: 1%; }
 
 .about-us {
-  height: 60vh;
-  background-color: #000; }
+  height: 445px;
+  background-color: #000;
+  align-content: center; }
 
 .heading-about {
-  padding-top: 10%; }
+  font-family: SourceSansPro;
+  font-size: 50px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  color: #ffffff; }
+
+.home-about-us {
+  font-family: SourceSansPro;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #cccccc; }
 
 #about-who {
-  height: 50vh; }
+  height: 548px; }
+
+.we-are {
+  width: 533px; }
 
 .pictureofwe {
-  height: 100%;
+  width: 600px;
+  height: 490px;
+  background-color: #666666; }
+
+#meet-our-team {
+  height: 721px;
   width: 100%; }
+
+.marlon {
+  height: 305px;
+  width: 270px;
+  background-color: #000; }
+
+.russ {
+  height: 305px;
+  width: 270px;
+  background-color: #000; }
+
+.michelle {
+  height: 305px;
+  width: 270px;
+  background-color: #000; }
+
+.justin {
+  height: 305px;
+  width: 270px;
+  background-color: #000; }
+
+.what-we-do {
+  height: 590px;
+  background-color: #000; }
 
 /*# sourceMappingURL=helpers.css.map */

@@ -6,40 +6,29 @@
   display: grid;
   margin-bottom: 10%;
   grid-gap: 1%;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(1, 250px);
-  grid-template-areas: "blank1 one two three blank2"; }
-
-.product1 {
-  grid-area: one;
-  background-color: #000;
-  text-align: center; }
-
-.product2 {
-  grid-area: two;
-  background-color: #000000;
-  text-align: center; }
-
-.product3 {
-  grid-area: three;
-  background-color: #000000;
-  text-align: center; }
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 6rem; }
 
 .collections {
   display: grid;
   margin-bottom: 10%;
   grid-gap: 1%;
   grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-template-rows: repeat(1, 300px);
   grid-template-areas: "blank1 newone newtwo blank2"; }
 
 .new-collection1 {
   grid-area: newone;
-  background-color: #000; }
+  width: 570px;
+  height: 373px;
+  background-color: #666666; }
 
 .new-collection2 {
   grid-area: newtwo;
-  background-color: #000; }
+  width: 570px;
+  height: 373px;
+  background-color: #666666; }
 
 .lookbook-head {
   display: grid;
@@ -49,7 +38,8 @@
 .wording {
   grid-area: words;
   text-align: center;
-  align-content: center; }
+  align-content: center;
+  margin-top: 35%; }
 
 .ourblog {
   display: grid;
@@ -66,6 +56,7 @@
 
 .secondnav {
   display: grid;
+  height: 93px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "left right"; }
 
@@ -90,6 +81,8 @@
 
 .grid-meet {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); }
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 2%;
+  grid-template-areas: "blank marlon russ michelle justin blank1"; }
 
 /*# sourceMappingURL=layouts.css.map */

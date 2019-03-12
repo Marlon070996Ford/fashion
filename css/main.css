@@ -5,16 +5,7 @@
   height: 40px;
   border-radius: 20px;
   background-color: #a88d7b;
-  border: none;
-  width: 87px;
-  margin: 5%;
-  font-family: SourceSansPro;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 1.5px;
-  color: #ffffff; }
+  border: none; }
 
 .fas {
   color: #999999; }
@@ -25,19 +16,46 @@
 .icons {
   text-align: center; }
 
+.fas fa-shopping-cart {
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff; }
+
 .down-arrow {
-  margin-top: 5%; }
+  margin-top: 35%;
+  font-size: 30px; }
+
+.view-more {
+  width: 150px;
+  height: 40px;
+  background-color: #a88d7b; }
 
 .top {
   width: 100%;
   height: 53px;
   background-color: #2d2827; }
 
+.nateb-pic1 {
+  font-family: Dosis;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #fffefe; }
+
 .head-image {
   width: 100%;
-  height: 100vh;
+  height: 956px;
   background-image: url(../../images/bg.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
   text-align: center; }
 
 .heading {
@@ -97,26 +115,43 @@
 
 #look {
   background-color: #666666;
-  height: 50vh; }
+  height: 552px; }
 
 #product {
-  height: 65vh;
-  background-color: grey; }
+  height: 705px; }
+
+.product1 {
+  background-color: #000;
+  text-align: center;
+  height: 360px;
+  width: 370px; }
+
+.product2 {
+  background-color: #000000;
+  text-align: center;
+  height: 360px;
+  width: 370px; }
+
+.product3 {
+  background-color: #000000;
+  text-align: center;
+  height: 360px;
+  width: 370px; }
 
 #collect {
-  height: 65vh;
-  background-color: grey; }
+  height: 705px;
+  background-color: #ffffff; }
 
 #blogg {
-  height: 60vh;
-  background-color: grey; }
+  height: 671px;
+  background-color: #f9f9f9; }
 
 .topnav {
   width: 100%;
   height: 53px;
   background-color: #eeeeee; }
 
-.navi {
+.navbar2 {
   font-family: Dosis;
   font-size: 20px;
   font-weight: normal;
@@ -129,18 +164,69 @@
   padding-top: 1%; }
 
 .about-us {
-  height: 60vh;
-  background-color: #000; }
+  height: 445px;
+  background-color: #000;
+  align-content: center; }
 
 .heading-about {
-  padding-top: 10%; }
+  font-family: SourceSansPro;
+  font-size: 50px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  color: #ffffff; }
+
+.home-about-us {
+  font-family: SourceSansPro;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #cccccc; }
 
 #about-who {
-  height: 50vh; }
+  height: 548px; }
+
+.we-are {
+  width: 533px; }
 
 .pictureofwe {
-  height: 100%;
+  width: 600px;
+  height: 490px;
+  background-color: #666666; }
+
+#meet-our-team {
+  height: 721px;
   width: 100%; }
+
+.marlon {
+  height: 305px;
+  width: 270px;
+  background-color: #000; }
+
+.russ {
+  height: 305px;
+  width: 270px;
+  background-color: #000; }
+
+.michelle {
+  height: 305px;
+  width: 270px;
+  background-color: #000; }
+
+.justin {
+  height: 305px;
+  width: 270px;
+  background-color: #000; }
+
+.what-we-do {
+  height: 590px;
+  background-color: #000; }
 
 body {
   margin: 0; }
@@ -169,7 +255,14 @@ span {
 h1, h2, h3, h4, h5 {
   text-align: center;
   margin-top: 0;
-  color: azure; }
+  font-family: SourceSansPro;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #333333; }
 
 .top {
   display: grid;
@@ -179,40 +272,29 @@ h1, h2, h3, h4, h5 {
   display: grid;
   margin-bottom: 10%;
   grid-gap: 1%;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(1, 250px);
-  grid-template-areas: "blank1 one two three blank2"; }
-
-.product1 {
-  grid-area: one;
-  background-color: #000;
-  text-align: center; }
-
-.product2 {
-  grid-area: two;
-  background-color: #000000;
-  text-align: center; }
-
-.product3 {
-  grid-area: three;
-  background-color: #000000;
-  text-align: center; }
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 6rem; }
 
 .collections {
   display: grid;
   margin-bottom: 10%;
   grid-gap: 1%;
   grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-template-rows: repeat(1, 300px);
   grid-template-areas: "blank1 newone newtwo blank2"; }
 
 .new-collection1 {
   grid-area: newone;
-  background-color: #000; }
+  width: 570px;
+  height: 373px;
+  background-color: #666666; }
 
 .new-collection2 {
   grid-area: newtwo;
-  background-color: #000; }
+  width: 570px;
+  height: 373px;
+  background-color: #666666; }
 
 .lookbook-head {
   display: grid;
@@ -222,7 +304,8 @@ h1, h2, h3, h4, h5 {
 .wording {
   grid-area: words;
   text-align: center;
-  align-content: center; }
+  align-content: center;
+  margin-top: 35%; }
 
 .ourblog {
   display: grid;
@@ -239,6 +322,7 @@ h1, h2, h3, h4, h5 {
 
 .secondnav {
   display: grid;
+  height: 93px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "left right"; }
 
@@ -263,7 +347,9 @@ h1, h2, h3, h4, h5 {
 
 .grid-meet {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); }
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 2%;
+  grid-template-areas: "blank marlon russ michelle justin blank1"; }
 
 /* Media Queries -------------------- */
 

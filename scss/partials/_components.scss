@@ -8,15 +8,6 @@
     border-radius: 20px;
     background-color: #a88d7b;
     border: none;
-    width: 87px;
-    margin: 5%;
-    font-family: SourceSansPro;
-    font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: 1.5px;
-    color: #ffffff;
 }
 
 .fas {
@@ -31,6 +22,25 @@
     text-align: center;
 }
 
+.fas fa-shopping-cart{
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
 .down-arrow {
-    margin-top: 5%;
+    margin-top: 35%;
+    font-size: 30px;
+    
+}
+
+.view-more {
+    width: 150px;
+    height: 40px;
+    background-color: #a88d7b;
 }
