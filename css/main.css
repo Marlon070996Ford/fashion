@@ -138,6 +138,10 @@
 #about-who {
   height: 50vh; }
 
+.pictureofwe {
+  height: 100%;
+  width: 100%; }
+
 body {
   margin: 0; }
 
@@ -256,6 +260,10 @@ h1, h2, h3, h4, h5 {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 1fr;
   grid-template-areas: "blank who image blank1 "; }
+
+.grid-meet {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
 
 /* Media Queries -------------------- */
 

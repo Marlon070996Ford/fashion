@@ -121,3 +121,8 @@
     grid-template-columns: 1fr 2fr 2fr 1fr;
     grid-template-areas: "blank who image blank1 "
 }
+
+.grid-meet {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
