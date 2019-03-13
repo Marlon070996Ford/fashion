@@ -43,7 +43,7 @@
   grid-area: words;
   text-align: center;
   align-content: center;
-  margin-top: 35%; }
+  margin-top: 20%; }
 
 .ourblog {
   display: grid;
@@ -64,8 +64,6 @@
 
 .small-footer-grid {
   display: grid;
-  margin-right: 40%;
-  grid-gap: 1%;
   grid-template-columns: repeat(4, auto); }
 
 .secondnav {
@@ -96,5 +94,10 @@
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 2%;
   grid-template-areas: "blank marlon russ michelle justin blank1"; }
+
+.what-we-do-grid {
+  display: grid;
+  grid-gap: 2%;
+  grid-template-columns: 1fr 1fr; }
 
 /*# sourceMappingURL=layouts.css.map */

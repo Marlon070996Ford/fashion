@@ -16,7 +16,7 @@
 
 .head-image {
   width: 100%;
-  height: 956px;
+  height: 100%;
   background-image: url(../../images/bg.jpg);
   background-size: cover;
   text-align: center; }
@@ -31,7 +31,7 @@
   letter-spacing: normal;
   text-align: center;
   color: #000;
-  padding: 15% 0 0 0; }
+  padding: 10% 0 0 0; }
 
 .heading-para {
   font-family: 'Source Sans Pro', sans-serif;
@@ -66,7 +66,7 @@
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 1.5px;
-  text-align: left;
+  text-align: center;
   color: #000;
   text-transform: uppercase; }
 
@@ -76,13 +76,11 @@
 .currency {
   text-align: center; }
 
-#look {
-  background-color: #666666;
-  height: 552px; }
-
 #product {
+  margin: 0;
   height: 705px;
-  padding-top: 10%; }
+  padding-top: 10%;
+  background-color: #f9f9f9; }
 
 .product1 {
   background-color: #000;
@@ -107,6 +105,10 @@
   background-color: #ffffff;
   padding-top: 10%; }
 
+#look {
+  background-color: #666666;
+  height: 552px; }
+
 #blogg {
   height: 671px;
   background-color: #f9f9f9;
@@ -127,12 +129,22 @@
   background-color: #ffffff;
   margin: 2%; }
 
+#nate-b {
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  color: #e5e5e5; }
+
 .topfooter {
   width: 100%;
   height: 53px;
   background-color: #eeeeee; }
 
-.navbar2 {
+.navbar2 a {
   font-family: 'Dosis', sans-serif;
   font-size: 20px;
   font-weight: normal;
@@ -140,7 +152,7 @@
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 0.8px;
-  color: #ffffff;
+  color: #000;
   text-transform: uppercase;
   padding-top: 1%; }
 
@@ -188,7 +200,8 @@
   padding-top: 5%; }
 
 .we-are {
-  width: 533px; }
+  width: 600px;
+  height: 490px; }
 
 .pictureofwe {
   width: 600px;
@@ -219,8 +232,17 @@
   width: 270px;
   background-color: #000; }
 
-.what-we-do {
+#what-we-do {
   height: 590px;
-  background-color: #000; }
+  background-color: aquamarine;
+  padding: 0 10%; }
+
+.what-we-do-pic {
+  width: 600px;
+  height: 490px; }
+
+.what-we-do-text {
+  width: 600px;
+  height: 490px; }
 
 /*# sourceMappingURL=helpers.css.map */

@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+header {
+    height: 945px;
+}
+
 nav {
     
     ul {
@@ -15,7 +19,17 @@ nav {
 
     a {
         text-decoration: none;  
-        color: darkgrey;
+        width: 66px;
+        height: 11px;
+        font-family: Dosis;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.8px;
+        text-align: left;
+        color: #ffffff;
     }
 }
 
@@ -56,3 +70,4 @@ footer {
     height: 405px;
     background-color: #666666;
 }
+

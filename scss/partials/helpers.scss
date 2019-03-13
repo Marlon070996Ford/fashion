@@ -18,9 +18,8 @@
   }
   
 .head-image {
-    
     width: 100%;
-    height: 956px;
+    height: 100%;
     background-image: url(../../images/bg.jpg);
     background-size: cover;
     text-align: center;
@@ -36,7 +35,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #000;
-    padding: 15% 0 0 0;
+    padding: 10% 0 0 0;
 }
 
 .heading-para {
@@ -75,7 +74,7 @@
     font-stretch: normal;
     line-height: normal;
     letter-spacing: 1.5px;
-    text-align: left;
+    text-align: center;
     color: #000;
     text-transform: uppercase;
 }
@@ -88,20 +87,12 @@
     text-align: center;
 }
 
-
-
-// =======#####=== divs and stuff to split things on the homepage ======####====
-#look {
-    background-color: #666666;
-    height: 552px;
-}
-
-
-
 // my feature products section and styling etc=========
 #product {
+    margin: 0;
     height: 705px;
     padding-top: 10%;
+    background-color: #f9f9f9;
 }
 .product1 {
     background-color: #000;
@@ -134,9 +125,11 @@
     padding-top: 10%;
 }
 
-
-
-
+// =======#####=== divs and stuff to split things on the homepage ======####====
+#look {
+    background-color: #666666;
+    height: 552px;
+}
 
 //========== my blog section on the home page =======
 
@@ -167,6 +160,17 @@
     margin: 2%;
 }
 
+#nate-b {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    color: #e5e5e5;
+    
+}
 
 //===== about and the rest of my top styling======
 
@@ -178,7 +182,7 @@
     background-color: #eeeeee;
 }
 
-.navbar2 {
+.navbar2 a {
     font-family: 'Dosis', sans-serif;
     font-size: 20px;
     font-weight: normal;
@@ -186,7 +190,7 @@
     font-stretch: normal;
     line-height: normal;
     letter-spacing: 0.8px;
-    color: #ffffff;
+    color: #000;
     text-transform: uppercase;
     padding-top: 1%;
 }
@@ -243,7 +247,8 @@
 }
 
 .we-are {
-    width: 533px;
+    width: 600px;
+    height: 490px;
 }
 
 .pictureofwe {
@@ -284,7 +289,18 @@ padding-top: 10%;
 
 //=========== what we do section and images and display etc =========
 
-.what-we-do {
+#what-we-do {
     height: 590px;
-    background-color: #000; 
+    background-color: aquamarine;
+    padding: 0 10%;
 }
+.what-we-do-pic {
+    width: 600px;
+    height: 490px;
+}
+
+.what-we-do-text {
+    width: 600px;
+    height: 490px;
+}
+
