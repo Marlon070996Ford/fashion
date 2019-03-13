@@ -35,7 +35,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #000;
-    padding: 10% 0 0 0;
+    // padding: 10% 0 0 0;
 }
 
 .heading-para {
@@ -91,7 +91,6 @@
 #product {
     margin: 0;
     height: 705px;
-    padding-top: 10%;
     background-color: #f9f9f9;
 }
 .product1 {
@@ -122,10 +121,9 @@
 #collect {
     height: 705px;
     background-color: #ffffff;
-    padding-top: 10%;
 }
 
-// =======#####=== divs and stuff to split things on the homepage ======####====
+// =======#####=== lookbook section on my homepage ======####====
 #look {
     background-color: #666666;
     height: 552px;
@@ -136,7 +134,6 @@
 #blogg {
     height: 671px;
     background-color: #f9f9f9;
-    padding-top: 8%;
 }
 
 .ourblog-img {

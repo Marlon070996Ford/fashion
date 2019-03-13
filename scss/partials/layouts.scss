@@ -24,24 +24,22 @@
 
 .collections {
     display: grid;
-    margin-bottom: 10%;
-    grid-gap: 1%;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
-    grid-template-areas: "blank1 newone newtwo blank2"
+    margin: auto;
+    grid-gap: 1rem;
+    width: 71.375rem;
+    grid-template-columns: 1fr 1fr;
 
 }
 
 .new-collection1 {
-    grid-area: newone;
-    width: 570px;
-    height: 373px;
+    width: 35.625rem;
+    height: 23.3125rem;
     background-color: #666666;
 }
 
 .new-collection2 {
-    grid-area: newtwo;
-    width: 570px;
-    height: 373px;
+    width: 35.625rem;
+    height: 23.3125rem;
     background-color: #666666;
 }
 
@@ -65,28 +63,27 @@
 .ourblog {
     display: grid;
     grid-gap: 2%;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
-    grid-template-areas:"blank pic word blank1"
+    width: 71.375rem;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:"pic word"
 }
-
-.ourblog-img {
-    grid-area: pic;
-}
-.blogword {
-    grid-area: word;
-}
-
 
 // ======#####==== My footer grids and smaller grid======####======
 
 .footer-grid {
+    padding-top: 5%;
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 2fr;
+    width: 71.375rem;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .small-footer-grid {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 5rem);
+    grid-template-rows: repeat(2, 5rem);
 }
 
 // #####====== secondnav style =======#####
@@ -130,6 +127,9 @@
     grid-template-areas: "blank who image blank1 "
 }
 
+
+// ======####=====meet our team grid=====####====
+
 .grid-meet {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -138,7 +138,7 @@
 }
 
 
-// what we do section and grid
+//=====####==== what we do section and grid ===###=====
 
 .what-we-do-grid {
     display: grid;
