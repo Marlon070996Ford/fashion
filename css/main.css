@@ -153,7 +153,18 @@
 
 #collect {
   height: 705px;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  text-align: center; }
+
+.new-collection1 {
+  width: 35.625rem;
+  height: 23.3125rem;
+  background-color: #666666; }
+
+.new-collection2 {
+  width: 35.625rem;
+  height: 23.3125rem;
+  background-color: #666666; }
 
 #look {
   background-color: #666666;
@@ -195,16 +206,17 @@
   background-color: #eeeeee; }
 
 .navbar2 a {
-  font-family: 'Dosis', sans-serif;
-  font-size: 20px;
-  font-weight: normal;
+  width: 40px;
+  height: 12px;
+  font-family: Dosis;
+  font-size: 16px;
+  font-weight: 600;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 0.8px;
-  color: #000;
-  text-transform: uppercase;
-  padding-top: 1%; }
+  text-align: left;
+  color: #666666; }
 
 .imgnate {
   width: 116px;
@@ -257,24 +269,25 @@
   background-color: #666666; }
 
 #meet-our-team {
-  height: 721px; }
+  height: 721px;
+  text-align: center; }
 
-.marlon {
+.nate-team {
   height: 305px;
   width: 270px;
   background-color: #000; }
 
-.russ {
+.keith-team {
   height: 305px;
   width: 270px;
   background-color: #000; }
 
-.michelle {
+.tendai-team {
   height: 305px;
   width: 270px;
   background-color: #000; }
 
-.justin {
+.henry-team {
   height: 305px;
   width: 270px;
   background-color: #000; }
@@ -346,6 +359,9 @@ footer {
   height: 409px;
   background-color: #666666; }
 
+p {
+  color: black; }
+
 .top {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
@@ -369,16 +385,6 @@ footer {
   grid-gap: 1rem;
   width: 71.375rem;
   grid-template-columns: 1fr 1fr; }
-
-.new-collection1 {
-  width: 35.625rem;
-  height: 23.3125rem;
-  background-color: #666666; }
-
-.new-collection2 {
-  width: 35.625rem;
-  height: 23.3125rem;
-  background-color: #666666; }
 
 .lookbook-head {
   display: grid;

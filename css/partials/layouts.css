@@ -22,16 +22,6 @@
   width: 71.375rem;
   grid-template-columns: 1fr 1fr; }
 
-.new-collection1 {
-  width: 35.625rem;
-  height: 23.3125rem;
-  background-color: #666666; }
-
-.new-collection2 {
-  width: 35.625rem;
-  height: 23.3125rem;
-  background-color: #666666; }
-
 .lookbook-head {
   display: grid;
   grid-template-columns: 1fr 3fr 3fr;
