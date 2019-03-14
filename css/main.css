@@ -186,7 +186,8 @@
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 1.5px;
-  color: #e5e5e5; }
+  color: #e5e5e5;
+  text-align: left; }
 
 .topfooter {
   width: 100%;
@@ -220,8 +221,7 @@
 .about-us {
   height: 445px;
   background-color: #000;
-  align-content: center;
-  padding-top: 20%; }
+  align-content: center; }
 
 .heading-about {
   font-family: 'Source Sans Pro', sans-serif;
@@ -245,8 +245,7 @@
   color: #cccccc; }
 
 #about-who {
-  height: 548px;
-  padding-top: 5%; }
+  height: 548px; }
 
 .we-are {
   width: 600px;
@@ -258,8 +257,7 @@
   background-color: #666666; }
 
 #meet-our-team {
-  height: 721px;
-  padding-top: 10%; }
+  height: 721px; }
 
 .marlon {
   height: 305px;
@@ -283,8 +281,7 @@
 
 #what-we-do {
   height: 590px;
-  background-color: aquamarine;
-  padding: 0 10%; }
+  background-color: aquamarine; }
 
 .what-we-do-pic {
   width: 600px;
@@ -296,9 +293,6 @@
 
 body {
   margin: 0; }
-
-header {
-  height: 945px; }
 
 nav ul {
   margin-top: 0; }
@@ -395,20 +389,19 @@ footer {
   grid-area: words;
   text-align: center;
   align-content: center;
-  margin-top: 20%; }
+  margin-top: 30%; }
 
 .ourblog {
   display: grid;
-  grid-gap: 2%;
+  grid-gap: 1%;
   width: 71.375rem;
   margin: auto;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "pic word"; }
+  grid-template-columns: 1fr 1fr; }
 
 .footer-grid {
   padding-top: 5%;
   display: grid;
-  width: 71.375rem;
+  width: 1200px;
   margin: auto;
   grid-template-columns: repeat(4, 1fr); }
 
@@ -438,18 +431,22 @@ footer {
 
 .who-we-are {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-template-areas: "blank who image blank1 "; }
+  margin: auto;
+  width: 1200px;
+  grid-template-columns: 1fr 1fr; }
 
 .grid-meet {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 2%;
-  grid-template-areas: "blank marlon russ michelle justin blank1"; }
+  margin: auto;
+  grid-gap: 1rem;
+  width: 1200px;
+  grid-template-columns: repeat(4, 1fr); }
 
 .what-we-do-grid {
   display: grid;
-  grid-gap: 2%;
+  margin: auto;
+  grid-gap: 1rem;
+  width: 1200px;
   grid-template-columns: 1fr 1fr; }
 
 /* Media Queries -------------------- */

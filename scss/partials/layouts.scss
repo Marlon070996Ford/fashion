@@ -56,17 +56,16 @@
     grid-area: words;
     text-align: center;
     align-content: center; 
-    margin-top: 20%; 
+    margin-top: 30%; 
 }
 
 // ====== my blog part of the homepage==== ###
 .ourblog {
     display: grid;
-    grid-gap: 2%;
+    grid-gap: 1%;
     width: 71.375rem;
     margin: auto;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas:"pic word"
 }
 
 // ======#####==== My footer grids and smaller grid======####======
@@ -74,7 +73,7 @@
 .footer-grid {
     padding-top: 5%;
     display: grid;
-    width: 71.375rem;
+    width: 1200px;
     margin: auto;
     grid-template-columns: repeat(4, 1fr);
 }
@@ -86,7 +85,7 @@
     grid-template-rows: repeat(2, 5rem);
 }
 
-// #####====== secondnav style =======#####
+// #####====== secondnav style  thats on the rest of my pages=======#####
 
 .secondnav {
     display: grid;  
@@ -123,8 +122,9 @@
 
 .who-we-are {
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
-    grid-template-areas: "blank who image blank1 "
+    margin: auto;
+    width: 1200px;
+    grid-template-columns: 1fr 1fr;
 }
 
 
@@ -132,9 +132,10 @@
 
 .grid-meet {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 2%;
-    grid-template-areas: "blank marlon russ michelle justin blank1"
+    margin: auto;
+    grid-gap: 1rem;
+    width: 1200px;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 
@@ -142,6 +143,8 @@
 
 .what-we-do-grid {
     display: grid;
-    grid-gap: 2%;
+    margin: auto;
+    grid-gap: 1rem;
+    width: 1200px;
     grid-template-columns: 1fr 1fr;
 }

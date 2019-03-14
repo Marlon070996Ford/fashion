@@ -133,7 +133,8 @@
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 1.5px;
-  color: #e5e5e5; }
+  color: #e5e5e5;
+  text-align: left; }
 
 .topfooter {
   width: 100%;
@@ -167,8 +168,7 @@
 .about-us {
   height: 445px;
   background-color: #000;
-  align-content: center;
-  padding-top: 20%; }
+  align-content: center; }
 
 .heading-about {
   font-family: 'Source Sans Pro', sans-serif;
@@ -192,8 +192,7 @@
   color: #cccccc; }
 
 #about-who {
-  height: 548px;
-  padding-top: 5%; }
+  height: 548px; }
 
 .we-are {
   width: 600px;
@@ -205,8 +204,7 @@
   background-color: #666666; }
 
 #meet-our-team {
-  height: 721px;
-  padding-top: 10%; }
+  height: 721px; }
 
 .marlon {
   height: 305px;
@@ -230,8 +228,7 @@
 
 #what-we-do {
   height: 590px;
-  background-color: aquamarine;
-  padding: 0 10%; }
+  background-color: aquamarine; }
 
 .what-we-do-pic {
   width: 600px;

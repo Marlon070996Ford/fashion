@@ -166,10 +166,11 @@
     line-height: normal;
     letter-spacing: 1.5px;
     color: #e5e5e5;
+    text-align: left;
     
 }
 
-//===== about and the rest of my top styling======
+//===== about and the rest of my top of my page styling======
 
 // ============ My new nav and header =========
 
@@ -209,18 +210,17 @@
     height: 445px;
     background-color: #000; 
     align-content: center;
-    padding-top: 20%;
 }
 
 .heading-about {
     font-family: 'Source Sans Pro', sans-serif;
-  font-size: 50px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.2;
-  letter-spacing: 5px;
-  color: #ffffff;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    color: #ffffff;
 }
 
 .home-about-us {
@@ -240,7 +240,6 @@
 
 #about-who {
     height: 548px;
-    padding-top: 5%;
 }
 
 .we-are {
@@ -256,8 +255,7 @@
 
 // ====== meet the team grid and section display ==========
 #meet-our-team {
-height: 721px;
-padding-top: 10%;
+    height: 721px;
 }
 
 .marlon {
@@ -289,7 +287,6 @@ padding-top: 10%;
 #what-we-do {
     height: 590px;
     background-color: aquamarine;
-    padding: 0 10%;
 }
 .what-we-do-pic {
     width: 600px;
