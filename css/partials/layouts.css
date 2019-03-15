@@ -8,12 +8,10 @@
 
 .feature {
   display: grid;
-  margin-bottom: 10%;
-  grid-gap: 1%;
-  grid-template-columns: repeat(3, auto);
-  align-items: center;
-  justify-content: center;
-  padding: 2rem 6rem; }
+  grid-gap: 1rem;
+  margin: auto;
+  width: 71.375rem;
+  grid-template-columns: repeat(3, 1fr); }
 
 .collections {
   display: grid;
@@ -90,5 +88,8 @@
   grid-gap: 1rem;
   width: 1200px;
   grid-template-columns: 1fr 1fr; }
+
+.contact-grid {
+  width: 71.375rem; }
 
 /*# sourceMappingURL=layouts.css.map */

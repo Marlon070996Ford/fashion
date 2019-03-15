@@ -299,7 +299,7 @@
     background-color: #000;
 }
 
-//=========== what we do section and images and display etc =========
+//=========== what we do section and images and display on about page =========
 
 #what-we-do {
     height: 590px;
@@ -315,3 +315,16 @@
     height: 490px;
 }
 
+// ======####==== contact page and its first section with contact info====###=====
+
+#contact {
+width: 100%;
+margin: 60px auto 74px;
+}
+
+.address {
+    width: 390px;
+    height: 200px;
+    border: solid 1px #e6e6e6;
+    background-color: #f0f0f0;
+}
