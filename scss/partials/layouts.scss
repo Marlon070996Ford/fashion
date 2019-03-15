@@ -105,7 +105,7 @@
 // =====###====== my who we are grid and section of my about page ========###=====
 
 
-.who-we-are {
+.who-we-are-grid {
     display: grid;
     margin: auto;
     width: 1200px;
@@ -137,5 +137,8 @@
 // ====###=== my contact page grid ====###===
 
 .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     width: 71.375rem;
+    margin: auto;
 }

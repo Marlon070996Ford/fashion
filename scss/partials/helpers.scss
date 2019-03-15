@@ -258,7 +258,7 @@
     height: 548px;
 }
 
-.we-are {
+.who-we-are {
     width: 600px;
     height: 490px;
 }
@@ -320,9 +320,24 @@
 #contact {
 width: 100%;
 margin: 60px auto 74px;
+
 }
 
 .address {
+    width: 390px;
+    height: 200px;
+    border: solid 1px #e6e6e6;
+    background-color: #f0f0f0;
+}
+
+.contacting-info {
+    width: 390px;
+    height: 200px;
+    border: solid 1px #e6e6e6;
+    background-color: black;
+}
+
+.opening-times {
     width: 390px;
     height: 200px;
     border: solid 1px #e6e6e6;
