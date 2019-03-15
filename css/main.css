@@ -133,20 +133,8 @@
   height: 705px;
   background-color: #f9f9f9; }
 
-.product1 {
+.product {
   background-color: #000;
-  text-align: center;
-  height: 360px;
-  width: 370px; }
-
-.product2 {
-  background-color: #000000;
-  text-align: center;
-  height: 360px;
-  width: 370px; }
-
-.product3 {
-  background-color: #000000;
   text-align: center;
   height: 360px;
   width: 370px; }
@@ -270,7 +258,8 @@
 
 #meet-our-team {
   height: 721px;
-  text-align: center; }
+  text-align: center;
+  background-color: black; }
 
 .nate-team {
   height: 305px;
@@ -458,6 +447,7 @@ p {
 .who-we-are-grid {
   display: grid;
   margin: auto;
+  padding-top: 58px;
   width: 1200px;
   grid-template-columns: 1fr 1fr; }
 
@@ -471,6 +461,7 @@ p {
 .what-we-do-grid {
   display: grid;
   margin: auto;
+  padding-top: 100px;
   grid-gap: 1rem;
   width: 1200px;
   grid-template-columns: 1fr 1fr; }
@@ -480,6 +471,13 @@ p {
   grid-template-columns: repeat(3, 1fr);
   width: 71.375rem;
   margin: auto; }
+
+.form {
+  display: grid;
+  grid-gap: 1rem;
+  margin: auto;
+  width: 1200px;
+  grid-template-columns: repeat(2, 1fr); }
 
 /* Media Queries -------------------- */
 

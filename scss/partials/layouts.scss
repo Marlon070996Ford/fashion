@@ -108,6 +108,7 @@
 .who-we-are-grid {
     display: grid;
     margin: auto;
+    padding-top: 58px;
     width: 1200px;
     grid-template-columns: 1fr 1fr;
 }
@@ -129,6 +130,7 @@
 .what-we-do-grid {
     display: grid;
     margin: auto;
+    padding-top: 100px;
     grid-gap: 1rem;
     width: 1200px;
     grid-template-columns: 1fr 1fr;
@@ -141,4 +143,14 @@
     grid-template-columns: repeat(3, 1fr);
     width: 71.375rem;
     margin: auto;
+}
+
+// ====###=== my input text area ===###===
+
+.form {
+    display: grid;
+    grid-gap: 1rem;
+    margin: auto;
+    width: 1200px;
+    grid-template-columns: repeat(2, 1fr);
 }

@@ -80,20 +80,8 @@
   height: 705px;
   background-color: #f9f9f9; }
 
-.product1 {
+.product {
   background-color: #000;
-  text-align: center;
-  height: 360px;
-  width: 370px; }
-
-.product2 {
-  background-color: #000000;
-  text-align: center;
-  height: 360px;
-  width: 370px; }
-
-.product3 {
-  background-color: #000000;
   text-align: center;
   height: 360px;
   width: 370px; }
@@ -217,7 +205,8 @@
 
 #meet-our-team {
   height: 721px;
-  text-align: center; }
+  text-align: center;
+  background-color: black; }
 
 .nate-team {
   height: 305px;
