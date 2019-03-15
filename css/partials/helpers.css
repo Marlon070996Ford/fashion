@@ -84,22 +84,21 @@
   background-color: #000;
   text-align: center;
   height: 360px;
-  width: 370px; }
+  width: 370px;
+  position: relative;
+  overflow: hidden; }
 
 #collect {
   height: 705px;
   background-color: #ffffff;
   text-align: center; }
 
-.new-collection1 {
+.new-collection {
   width: 35.625rem;
   height: 23.3125rem;
-  background-color: #666666; }
-
-.new-collection2 {
-  width: 35.625rem;
-  height: 23.3125rem;
-  background-color: #666666; }
+  background-color: #666666;
+  position: relative;
+  overflow: hidden; }
 
 #look {
   background-color: #666666;
@@ -112,7 +111,9 @@
 .ourblog-img {
   width: 585px;
   height: 405px;
-  background-color: #666666; }
+  background-color: #666666;
+  position: relative;
+  overflow: hidden; }
 
 .blogword {
   width: 585px;
@@ -121,8 +122,7 @@
 .insta {
   width: 80px;
   height: 80px;
-  background-color: #ffffff;
-  margin: 2%; }
+  background-color: #ffffff; }
 
 #nate-b {
   font-family: 'Dosis', sans-serif;
@@ -201,32 +201,21 @@
 .pictureofwe {
   width: 600px;
   height: 490px;
-  background-color: #666666; }
+  background-color: #666666;
+  position: relative;
+  overflow: hidden; }
 
 #meet-our-team {
   height: 721px;
   text-align: center;
   background-color: black; }
 
-.nate-team {
+.team {
   height: 305px;
   width: 270px;
-  background-color: #000; }
-
-.keith-team {
-  height: 305px;
-  width: 270px;
-  background-color: #000; }
-
-.tendai-team {
-  height: 305px;
-  width: 270px;
-  background-color: #000; }
-
-.henry-team {
-  height: 305px;
-  width: 270px;
-  background-color: #000; }
+  background-color: #000;
+  position: relative;
+  overflow: hidden; }
 
 #what-we-do {
   height: 590px;
@@ -234,7 +223,9 @@
 
 .what-we-do-pic {
   width: 600px;
-  height: 490px; }
+  height: 490px;
+  position: relative;
+  overflow: hidden; }
 
 .what-we-do-text {
   width: 600px;
@@ -261,5 +252,31 @@
   height: 200px;
   border: solid 1px #e6e6e6;
   background-color: #f0f0f0; }
+
+.blogs {
+  width: 370px;
+  height: 225px;
+  background-color: #666666;
+  position: relative;
+  overflow: hidden; }
+
+.copyright {
+  width: 100%;
+  height: 85px;
+  background-color: #d7d7d7;
+  text-align: center; }
+
+.copyright-text {
+  width: 381px;
+  height: 13px;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #666666; }
 
 /*# sourceMappingURL=helpers.css.map */
