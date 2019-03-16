@@ -95,7 +95,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 75rem;
-  margin: auto; }
+  margin: auto;
+  text-align: center; }
 
 .form {
   display: grid;
@@ -129,7 +130,8 @@
   width: 75rem;
   margin: auto;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, auto); }
+  grid-template-rows: repeat(2, auto);
+  text-align: center; }
 
 .wrapper-lookbook {
   display: grid;
