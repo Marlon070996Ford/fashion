@@ -17,7 +17,7 @@
 .head-image {
   width: 100%;
   height: 100%;
-  background-image: url(../../images/bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.459), #000000a9), url(../images/bg.jpg);
   background-size: cover;
   text-align: center; }
 
@@ -167,7 +167,9 @@
 
 .about-us {
   height: 445px;
-  background-color: #000;
+  background-image: url(/images/apartment-1400x600.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   align-content: center; }
 
 .heading-about {

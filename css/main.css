@@ -75,7 +75,7 @@
 .head-image {
   width: 100%;
   height: 100%;
-  background-image: url(../../images/bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.459), #000000a9), url(../images/bg.jpg);
   background-size: cover;
   text-align: center; }
 
@@ -225,7 +225,9 @@
 
 .about-us {
   height: 445px;
-  background-color: #000;
+  background-image: url(/images/apartment-1400x600.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   align-content: center; }
 
 .heading-about {
@@ -337,6 +339,9 @@
   text-align: left;
   color: #666666; }
 
+.container {
+  height: 945px; }
+
 body {
   margin: 0; }
 
@@ -425,7 +430,8 @@ textarea {
   grid-gap: 1rem;
   margin: auto;
   width: 75rem;
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center; }
 
 .collections {
   display: grid;
