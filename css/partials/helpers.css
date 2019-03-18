@@ -137,6 +137,26 @@
   color: #e5e5e5;
   text-align: left; }
 
+.copyright {
+  width: 100%;
+  height: 85px;
+  background-color: #d7d7d7;
+  text-align: center;
+  margin-top: 40px; }
+
+.copyright-text {
+  width: 381px;
+  height: 13px;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #666666; }
+
 .topfooter {
   width: 100%;
   height: 53px;
@@ -169,28 +189,7 @@
 
 .about-us {
   height: 445px;
-  background-image: url(/images/apartment-1400x600.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  align-content: center; }
-
-.lookbook-us {
-  height: 445px;
-  background-image: url(/images/apartment-1400x600.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  align-content: center; }
-
-.blog-us {
-  height: 445px;
-  background-image: url(/images/apartment-1400x600.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  align-content: center; }
-
-.contact-us {
-  height: 445px;
-  background-image: url(/images/contact-us-main-header-min.jpg);
+  background: linear-gradient(#00000060, #000000), url(/images/diverse-group-people-sitting-couch-concept.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   align-content: center; }
@@ -217,7 +216,8 @@
   color: #cccccc; }
 
 #about-who {
-  height: 548px; }
+  height: 548px;
+  margin-top: 60px; }
 
 .who-we-are {
   width: 600px;
@@ -236,7 +236,8 @@
 
 #meet-our-team {
   height: 721px;
-  text-align: center; }
+  text-align: center;
+  padding-top: 102px; }
 
 .team {
   height: 305px;
@@ -257,6 +258,13 @@
 .what-we-do-text {
   width: 600px;
   height: 490px; }
+
+.contact-us {
+  height: 445px;
+  background: linear-gradient(#00000060, #000000), url(../../images/contact-us-main-header-min.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  align-content: center; }
 
 #contact {
   width: 100%;
@@ -285,6 +293,13 @@
   border: solid 1px #e6e6e6;
   background-color: #f0f0f0; }
 
+.blog-us {
+  height: 445px;
+  background: linear-gradient(#00000060, #000000), url(../../images/apartment-1400x600.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  align-content: center; }
+
 .blogs {
   width: 370px;
   height: 225px;
@@ -292,24 +307,14 @@
   position: relative;
   overflow: hidden; }
 
-.copyright {
-  width: 100%;
-  height: 85px;
-  background-color: #d7d7d7;
-  text-align: center;
-  margin-top: 30px; }
+.hr-line {
+  width: 73rem; }
 
-.copyright-text {
-  width: 381px;
-  height: 13px;
-  font-family: SourceSansPro;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.71;
-  letter-spacing: normal;
-  text-align: left;
-  color: #666666; }
+.lookbook-us {
+  height: 445px;
+  background: linear-gradient(#00000060, #000000), url(../../images/apartment-1400x600.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  align-content: center; }
 
 /*# sourceMappingURL=helpers.css.map */
