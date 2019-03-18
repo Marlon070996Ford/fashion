@@ -34,7 +34,7 @@
 
 .ourblog {
   display: grid;
-  grid-gap: 1%;
+  grid-gap: 1rem;
   width: 73.125rem;
   margin: auto;
   grid-template-columns: 1fr 1fr; }
@@ -73,6 +73,7 @@
 .who-we-are-grid {
   display: grid;
   margin: auto;
+  grid-gap: 1rem;
   padding-top: 58px;
   width: 73.125rem;
   grid-template-columns: 1fr 1fr; }
@@ -80,7 +81,7 @@
 .grid-meet {
   display: grid;
   margin: auto;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
   width: 73.125rem;
   grid-template-columns: repeat(4, 1fr); }
 
@@ -100,7 +101,7 @@
 
 .form {
   display: grid;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
   margin: auto;
   width: 73.125rem;
   grid-template-columns: repeat(2, 1fr);
@@ -126,12 +127,12 @@
 
 .blog-page-grid {
   display: grid;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
   width: 73.125rem;
   margin: auto;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto);
-  text-align: center; }
+  text-align: left; }
 
 .wrapper-lookbook {
   display: grid;
