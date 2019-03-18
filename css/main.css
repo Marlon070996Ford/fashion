@@ -684,5 +684,55 @@ textarea {
   margin: 0; }
 
 /* Media Queries -------------------- */
+@media only screen and (max-width: 768px) {
+  .container {
+    height: auto; }
+
+  .nav {
+    text-align: left; }
+
+  #product {
+    margin: 0;
+    height: auto;
+    background-color: #f9f9f9; }
+
+  .feature {
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center; }
+
+  .collections {
+    display: block;
+    margin: auto;
+    width: 100%; }
+
+  #collect {
+    height: auto;
+    background-color: #ffffff;
+    text-align: center; }
+
+  #blogg {
+    height: auto; }
+
+  .ourblog {
+    display: block;
+    width: 100%;
+    margin: auto; }
+
+  footer {
+    height: auto; }
+
+  .footer-grid {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 60px 0 0 0; }
+
+  .small-footer-grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto); } }
 
 /*# sourceMappingURL=main.css.map */
