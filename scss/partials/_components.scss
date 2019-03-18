@@ -51,7 +51,20 @@
 .down-arrow {
     font-size: 30px;
     color: black;
-    
+    animation: arrow;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrow {
+    from {
+        margin-top: 0;
+        opacity: .5s;
+    }
+    to {
+        margin-top: 3vw;
+        opacity: 1;
+    }
 }
 
 .view-more {
