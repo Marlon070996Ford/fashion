@@ -203,6 +203,7 @@
 .wrapper-lookbook {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, auto);
     width: 100%;
     margin: 0;
 }
