@@ -189,7 +189,8 @@
 
 #look {
   background-color: #666666;
-  height: 552px; }
+  height: 552px;
+  background: linear-gradient(#00000060, #000000), url(../../images/apartment-1400x600.jpg); }
 
 #blogg {
   height: 671px;
@@ -321,8 +322,7 @@
 
 #meet-our-team {
   height: 721px;
-  text-align: center;
-  background-color: black; }
+  text-align: center; }
 
 .team {
   height: 305px;
@@ -332,8 +332,7 @@
   overflow: hidden; }
 
 #what-we-do {
-  height: 590px;
-  background-color: aquamarine; }
+  height: 590px; }
 
 .what-we-do-pic {
   width: 600px;

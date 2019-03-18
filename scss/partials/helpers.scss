@@ -125,6 +125,7 @@
 #look {
     background-color: #666666;
     height: 552px;
+    background: linear-gradient(#00000060, #000000), url(../../images/apartment-1400x600.jpg);
 }
 
 //========== my blog section on the home page =======
@@ -290,7 +291,6 @@ height: 100%;
 #meet-our-team {
     height: 721px;
     text-align: center;
-    background-color: black;
 }
 
 .team {
@@ -305,7 +305,6 @@ height: 100%;
 
 #what-we-do {
     height: 590px;
-    background-color: aquamarine;
 }
 .what-we-do-pic {
     width: 600px;
