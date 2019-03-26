@@ -95,6 +95,11 @@
   color: #706259;
   text-decoration: none; }
 
+.add-to-cart-btn {
+  width: 180px;
+  height: 44px;
+  background-color: #a88d7b; }
+
 .top {
   width: 100%;
   height: 53px;
@@ -289,7 +294,7 @@
   background: linear-gradient(#00000060, #000000), url(/images/diverse-group-people-sitting-couch-concept.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  align-content: center; }
+  text-align: center; }
 
 .heading-about {
   font-family: 'Source Sans Pro', sans-serif;
@@ -425,6 +430,19 @@
   width: 300px;
   height: 300px;
   background-color: #666666; }
+
+.add-cart-btn-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 99px;
+  height: 10px;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: azure; }
 
 .container {
   height: 945px; }
@@ -703,6 +721,8 @@ textarea {
 .product-cart {
   display: grid;
   grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(4, 300px);
+  grid-gap: 50px;
   width: 73.125rem;
   margin: auto; }
 
