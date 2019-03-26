@@ -207,3 +207,19 @@
     width: 100%;
     margin: 0;
 }
+
+
+// ===###=== Shop Page and Layout ===###===
+
+.show-results {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+.product-cart {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    width: 73.125rem;
+    margin: auto;
+}
