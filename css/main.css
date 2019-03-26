@@ -361,7 +361,7 @@
   background: linear-gradient(#00000060, #000000), url(../../images/contact-us-main-header-min.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  align-content: center; }
+  text-align: center; }
 
 #contact {
   width: 100%;
@@ -395,7 +395,7 @@
   background: linear-gradient(#00000060, #000000), url(../../images/apartment-1400x600.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  align-content: center; }
+  text-align: center; }
 
 .blogs {
   width: 370px;
@@ -412,7 +412,14 @@
   background: linear-gradient(#00000060, #000000), url(../../images/apartment-1400x600.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  align-content: center; }
+  text-align: center; }
+
+.shop-us {
+  height: 445px;
+  background: linear-gradient(#00000060, #000000), url(/images/diverse-group-people-sitting-couch-concept.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center; }
 
 .container {
   height: 945px; }
