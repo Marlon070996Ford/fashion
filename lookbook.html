@@ -7,6 +7,7 @@
     <title>lookbook</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/prettyPhoto.css">
 </head>
 <body>
         <header>
@@ -62,50 +63,20 @@
 
         <main class="wrapper-lookbook">
             <div>
-                <img data-enlargable width="100" src="../furniture/images/lookbook/architecture-cabinets-carpet-min.jpg" alt="">
+                <a href="images/lookbook/kid-room-furniture.png" rel="prettyPhoto[gal]">
+                <img src="images/lookbook/kid-room-furniture.png" alt="">
+                </a>
             </div>
+
             <div>
-                <img data-enlargable width="100" src="/images/lookbook/Chest-of-Drawers-Front.jpg" alt="">
+                <a href="images/lookbook/green-lounge.jpg" rel="prettyPhoto[gal]">
+                <img src="images/lookbook/green-lounge.jpg" alt="">
+                </a>
             </div>
-            <div>
-                <img data-enlargable width="100" src="/images/lookbook/SHOP-OUR-FURNITURE-STORE-800x800.png" alt="">
-            </div>
-            <div>
-                <img data-enlargable width="100" src="/images/lookbook/apartment-chair-contemporary-index-main-min.jpg" alt="">
-            </div>
-            <div>
-                <img data-enlargable width="100" src="/images/lookbook/architecture-cabinets-carpet-min.jpg" alt="">
-            </div>
-            <div>
-                <img data-enlargable width="100" src="/images/lookbook/armAndSideChairs_1024.jpg" alt="">
-            </div>
-            <div>
-                <img data-enlargable width="100" src="/images/lookbook/bright-bookcase-design-square.jpg" alt="">
-            </div>
-            <div>
-                <img data-enlargable width="100" src="/images/lookbook/cat_furniture_second.jpg" alt="">
-            </div>
-            <div>
-                <img data-enlargable width="100" src="/images/lookbook/green-lounge.jpg" alt="">
-            </div>
-            <div>
-                <img data-enlargable width="100" src="/images/lookbook/guest-suite.jpg" alt="">
-            </div>
-            <div>
-                <img data-enlargable width="100" src="/images/lookbook/hero-1.jpg" alt="">
-            </div>
-            <div>
+
+            <!-- <div>
                 <img data-enlargable width="100" src="images/lookbook/kid-room-furniture.png" alt="">
-            </div>
-            <div>
-                <img data-enlargable width="100" src="/images/lookbook/bright-bookcase-design-square.jpg" alt="">
-            </div>
-            <div>
-                <img data-enlargable width="100" src="/images/lookbook/voice-stockholm-design-week-furniture-dezeen-sq.jpg" alt="">
-            </div>
-            <div>
-                <img data-enlargable width="100" src="/images/lookbook/our-furniture.jpg" alt="">
-            </div>
+            </div> -->
 
 
         </main>
@@ -178,6 +149,12 @@
         </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src="js/lookbook.js"></script>
+        <script src="js/jquery.prettyPhoto.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            $(document).ready(function(){
+              $("a[rel^='prettyPhoto']").prettyPhoto();
+            });
+        </script>
+         <!-- <script src="js/lookbook.js"></script> -->
 </body>
 </html>
