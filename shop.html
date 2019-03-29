@@ -76,23 +76,23 @@
 
             <section class="product-cart">
                     <div class="product-images">
-                        <img src="" alt="">
+                        <img src="images/tangram-design-square.jpg" alt="">
                     </div>
     
                     <article>
-                        <h4>Bed</h4>
+                        <h4>Chair</h4>
 
                         <p id="item-1-price"></p>
 
                         <p id="item-1-describe"></p>
 
-                        <button class="add-to-cart-btn btn my-cart-btn" data-id="1" data-name="Bed" data-summary="summary 1" data-price="800" data-quantity="1" data-image="images/img_1.png"> 
+                        <button class="add-to-cart-btn btn my-cart-btn" data-id="1" data-name="Bed" data-summary="summary 1" data-price="800" data-quantity="1" data-image="images/tangram-design-square.jpg"> 
                             <span class="add-cart-btn-text"><i class="fas fa-shopping-cart"></i>ADD TO CART</span>
                         </button>
                     </article>
                     
                     <div class="product-images">
-
+                        <img src="images/round-table-design.jpg" alt="">
                     </div>
 
                     <div>
@@ -102,13 +102,13 @@
 
                         <p id="item-2-describe"></p>
 
-                        <button class="add-to-cart-btn btn my-cart-btn" data-id="1" data-name="couch" data-summary="summary 1" data-price="500" data-quantity="1" data-image="images/img_1.png"> 
+                        <button class="add-to-cart-btn btn my-cart-btn" data-id="2" data-name="couch" data-summary="summary 1" data-price="1000" data-quantity="1" data-image=""> 
                             <span class="add-cart-btn-text"><i class="fas fa-shopping-cart"></i>ADD TO CART</span>
                         </button>
                     </div>
 
                     <div class="product-images">
-
+                        <img src="/images/Parisa-Bed-White.jpg" alt="">
                     </div>
 
                     <article>
@@ -124,11 +124,11 @@
                     </article>
 
                     <div class="product-images">
-                        <img src="" alt="">
+                        <img src="images/Hue-Cushion-Harvest.jpg" alt="">
                     </div>
 
                     <article>
-                        <h4>Wooden Chair</h4>
+                        <h4>Couch</h4>
 
                         <p id="item-4-price"></p>
 
@@ -263,10 +263,7 @@
               alert(checkoutString)
               console.log("checking out", products, totalPrice, totalQuantity);
             },
-            getDiscountPrice: function(products, totalPrice, totalQuantity) {
-              console.log("calculating discount", products, totalPrice, totalQuantity);
-              return totalPrice * 0.5;
-            }
+    
           });
       
           $("#addNewProduct").click(function(event) {
