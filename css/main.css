@@ -191,6 +191,9 @@
   position: relative;
   overflow: hidden; }
 
+.featured-product-title {
+  padding-top: 65px; }
+
 #collect {
   height: 705px;
   background-color: #ffffff;
@@ -202,6 +205,9 @@
   background-color: #666666;
   position: relative;
   overflow: hidden; }
+
+.new-collection-title {
+  padding-top: 65px; }
 
 #look {
   background-color: #666666;

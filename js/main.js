@@ -5,7 +5,7 @@ function Item(name, price) {
 }
 
 Item.prototype.description = function () {
-    var description = "This is a beautiful " + this.name + " for the low price of " + this.price + "."
+    var description = "This is a beautiful " + this.name + " for the low price of " + this.price + ". We sell qaulity goods at quality prices for your convienance and pleasure. "
      return description;
 }
 
