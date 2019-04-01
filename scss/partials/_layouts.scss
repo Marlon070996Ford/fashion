@@ -102,6 +102,7 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+//===###=== About Page===###===
 
 // =====###====== my who we are grid and section of my about page ========###=====
 
@@ -124,6 +125,24 @@
     grid-gap: 1rem;
     width: 73.125rem;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "img1 img2 img3 img4"
+                         
+}
+
+.nate {
+    grid-area: img1;
+}
+
+.keith {
+    grid-area: img2;
+}
+
+.tendai {
+    grid-area: img3;
+}
+
+.henry {
+    grid-area: img4;
 }
 
 

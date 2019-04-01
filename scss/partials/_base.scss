@@ -119,6 +119,8 @@ img {
     height: 100%;
     width: 100%;
     transition: 200ms;
+    position: relative;
+    overflow: hidden;
 }
 
 img:hover {

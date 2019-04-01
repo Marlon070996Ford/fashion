@@ -223,19 +223,6 @@
     color: #666666;
 }
 
-.imgnate {
-    width: 116px;
-    height: 22px;
-    font-family: 'Dosis', sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 1.5px;
-    color: #000000;
-}
-
 .about-us {
     height: 445px;
     background: linear-gradient(#00000060, #000000), url(/images/diverse-group-people-sitting-couch-concept.jpg);
@@ -253,6 +240,7 @@
     line-height: 1.2;
     letter-spacing: 5px;
     color: #ffffff;
+    padding-top: 180px;
 }
 
 .home-about-us {
@@ -282,14 +270,14 @@
 
 .we-are-pic {
     width: 600px;
-  height: 490px;
-  background-color: #666666;
-  position: relative;
-  overflow: hidden;
+    height: 490px;
+    background-color: #666666;
+    position: relative;
+    overflow: hidden;
 }
 .pictureofwe {
-  width: 100%;
-height: 100%;
+    width: 100%;
+    height: 100%;
   
 }
 
@@ -304,9 +292,8 @@ height: 100%;
     height: 305px;
     width: 270px;
     background-color: #000;
-    position: relative;
-    overflow: hidden;
 }
+
 
 //=========== what we do section and images and display on about page =========
 
@@ -316,8 +303,6 @@ height: 100%;
 .what-we-do-pic {
     width: 600px;
     height: 490px;
-    position: relative;
-    overflow: hidden;
 }
 
 .what-we-do-text {
@@ -398,76 +383,76 @@ margin: 60px auto 74px;
     text-align: center;
 }
 
-.close {
-    background: none;
-    color: black;
-    border: 0;
-  }
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 100px);
-    grid-auto-rows: 100px;
-    grid-auto-flow: dense;
-  }
-  .item {
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: 1;
-  }
-  .item img {
-    grid-column: 1 / -1;
-    grid-row: 1 / -1;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .item__overlay {
-    background: #ffc60032;
-    grid-column: 1 / -1;
-    grid-row: 1 / -1;
-    position: relative;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    transition: 0.2s;
-    transform: translateY(100%);
-  }
-  .item__overlay button {
-    background: none;
-    border: 2px solid white;
-    color: white;
-    text-transform: uppercase;
-    background: rgba(0, 0, 0, 0.7);
-    padding: 5px;
-  }
-  .item:hover .item__overlay {
-    transform: translateY(0);
-  }
+// .close {
+//     background: none;
+//     color: black;
+//     border: 0;
+//   }
+//   .gallery {
+//     display: grid;
+//     grid-template-columns: repeat(auto-fill, 100px);
+//     grid-auto-rows: 100px;
+//     grid-auto-flow: dense;
+//   }
+//   .item {
+//     overflow: hidden;
+//     display: grid;
+//     grid-template-columns: 1;
+//     grid-template-rows: 1;
+//   }
+//   .item img {
+//     grid-column: 1 / -1;
+//     grid-row: 1 / -1;
+//     width: 100%;
+//     height: 100%;
+//     object-fit: cover;
+//   }
+//   .item__overlay {
+//     background: #ffc60032;
+//     grid-column: 1 / -1;
+//     grid-row: 1 / -1;
+//     position: relative;
+//     display: grid;
+//     justify-items: center;
+//     align-items: center;
+//     transition: 0.2s;
+//     transform: translateY(100%);
+//   }
+//   .item__overlay button {
+//     background: none;
+//     border: 2px solid white;
+//     color: white;
+//     text-transform: uppercase;
+//     background: rgba(0, 0, 0, 0.7);
+//     padding: 5px;
+//   }
+//   .item:hover .item__overlay {
+//     transform: translateY(0);
+//   }
 
-.overlay {
-    position: fixed;
-    background: rgba(0, 0, 0, 0.7);
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: none;
-    z-index: 2;
-    }
-    .overlay.open {
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    }
-    .overlay-inner {
-    background: white;
-    width: 700px;
-    padding: 20px;
-    }
-    .overlay img {
-    width: 100%;
-    }
+// .overlay {
+//     position: fixed;
+//     background: rgba(0, 0, 0, 0.7);
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     display: none;
+//     z-index: 2;
+//     }
+// .overlay.open {
+//     display: grid;
+//     align-items: center;
+//     justify-items: center;
+//     }
+// .overlay-inner {
+//     background: white;
+//     width: 700px;
+//     padding: 20px;
+//     }
+// .overlay img {
+//     width: 100%;
+//     }
 
 
 // my shop page section 
