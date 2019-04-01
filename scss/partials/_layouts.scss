@@ -188,6 +188,8 @@
     grid-area: button;  
 }
 
+// ===###===  My Blog Page ===###===
+
 // ====###=== my blog icons and logos on blog page===###===
 
 .blog-icon-grid {
@@ -212,10 +214,38 @@
     margin: auto;
     padding: 60px 0 100px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto);
+    grid-template-rows: repeat(4, auto);
     text-align: left;
+    grid-template-areas: "img1 img2 img3"
+                         ". . ."
+                         "img4 img5 img6"
+                         ". . ."
+                        
 }
 
+.best-collection {
+    grid-area: img1;
+}
+
+.luxury-living-room {
+    grid-area: img2;
+}
+
+.chair {
+    grid-area: img3;
+}
+
+.comfortable-homes {
+    grid-area: img4;
+}
+
+.living-room {
+    grid-area: img5;
+}
+
+.wooden-kitchen {
+    grid-area: img6;
+}
 
 // ====####====lookbook page and layout design====####=====
 
