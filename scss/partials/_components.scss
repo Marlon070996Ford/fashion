@@ -14,6 +14,7 @@
 // arrow that moves on the header of the home page
 
 .down-arrow {
+    padding: 20px;
     color: black;
     animation: arrow;
     animation-duration: 1.2s;
@@ -26,8 +27,8 @@
         opacity: .5s;
     }
     to {
-        margin-top: 3vw;
-        opacity: 1;
+        margin-top: 50px;
+        opacity: 1s;
     }
 }
 
