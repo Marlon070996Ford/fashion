@@ -44,6 +44,8 @@
 
 .icons {
   text-align: center; }
+  .icons :hover {
+    color: blue; }
 
 .fas fa-shopping-cart {
   font-size: 30px;
