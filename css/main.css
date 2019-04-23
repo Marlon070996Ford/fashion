@@ -179,6 +179,8 @@
 
 .currency {
   text-align: center; }
+  .currency a :hover {
+    color: blue; }
 
 #product {
   margin-top: 57px;
@@ -497,6 +499,8 @@ nav ul {
 nav li {
   display: inline;
   padding: 1%; }
+  nav li :hover {
+    color: blue; }
 nav a {
   text-decoration: none;
   width: 66px;
